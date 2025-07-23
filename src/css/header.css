@@ -1,0 +1,16 @@
+header {
+    background-color: rgba(15, 23, 42, 0.95);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: var(--shadow);
+    padding: 1.2rem 0;
+    border-bottom: 1px solid var(--dark-border);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

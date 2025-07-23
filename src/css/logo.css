@@ -1,0 +1,15 @@
+.logo {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+}
+
+.logo span {
+    color: var(--secondary);
+}
+
+.logo i {
+    margin-right: 0.5rem;
+}

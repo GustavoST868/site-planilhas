@@ -1,0 +1,16 @@
+ .filter-btn {
+    padding: 0.5rem 1.5rem;
+    background: var(--dark-bg);
+    border: 1px solid var(--dark-border);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: var(--transition);
+    font-weight: 500;
+    color: var(--light);
+}
+
+.filter-btn.active, .filter-btn:hover {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}

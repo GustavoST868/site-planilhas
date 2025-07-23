@@ -1,0 +1,35 @@
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--light);
+    font-weight: 500;
+    transition: var(--transition);
+    position: relative;
+}
+
+nav ul li a:hover {
+    color: var(--primary);
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary);
+    transition: var(--transition);
+        }
+
+nav ul li a:hover::after {
+    width: 100%;
+}
