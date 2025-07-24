@@ -44,7 +44,7 @@
     width: 100%;
     padding: 0.8rem 1.2rem;
     background: var(--dark-card);
-    border: 1px solid var(--dark-border);
+    border: 1px #2c3e50;
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
