@@ -1,7 +1,7 @@
 .portfolio {
     padding: 8rem 0;
-    background: var(--dark-card);
-        }
+    background: #263544; /* tom escuro do card */
+}
 
 .portfolio-filters {
     display: flex;
@@ -21,20 +21,20 @@
     position: relative;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: var(--shadow);
-    background: var(--dark-bg);
-    border: 1px solid var(--dark-border);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* sombra discreta */
+    background: #1e2933; /* fundo escuro sóbrio */
+    border: 1px solid #35495e; /* borda cinza escuro */
 }
 
-    .portfolio-img {
+.portfolio-img {
     height: 250px;
     overflow: hidden;
-    background: #1a243f;
+    background: #1a243f; /* mantido */
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    border-bottom: 1px solid var(--dark-border);
+    border-bottom: 1px solid #35495e; /* borda escura */
 }
 
 .portfolio-img img {
@@ -42,7 +42,7 @@
     height: auto;
     max-height: 100%;
     object-fit: contain;
-    transition: var(--transition);
+    transition: transform 0.3s ease;
 }
 
 .portfolio-overlay {
@@ -58,10 +58,10 @@
     align-items: center;
     padding: 2rem;
     opacity: 0;
-    transition: var(--transition);
+    transition: opacity 0.3s ease;
     text-align: center;
-    color: white;
-    border: 1px solid var(--primary);
+    color: #b0b8c2; /* cinza claro para texto */
+    border: 1px solid #3e8e7e; /* borda verde escura */
 }
 
 .portfolio-item:hover .portfolio-overlay {
@@ -75,10 +75,10 @@
 .portfolio-overlay h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: var(--primary);
+    color: #3e8e7e; /* verde escuro */
 }
 
 .portfolio-overlay p {
     margin-bottom: 1.5rem;
-    color: var(--gray);
+    color: #b0b8c2; /* cinza claro */
 }

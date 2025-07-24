@@ -1,6 +1,6 @@
 .about {
     padding: 8rem 0;
-    background: var(--dark-bg);
+    background: #1e2933; /* fundo escuro com tom sóbrio, igual benefits */
 }
 
 .about-content {
@@ -13,27 +13,28 @@
 .about-text h3 {
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
+    color: #ffffff; /* título claro para contraste no fundo escuro */
 }
 
 .about-text p {
     margin-bottom: 1.5rem;
-    color: var(--gray);
+    color: #b0b8c2; /* cinza claro e elegante, igual benefits */
 }
 
 .about-img {
-position: relative;
+    position: relative;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: var(--shadow-lg);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* sombra mais discreta igual benefits */
     height: 400px;
-    border: 1px solid var(--dark-border);
+    border: 1px solid #35495e; /* borda cinza escura para contraste sutil */
 }
 
 .about-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: var(--transition);
+    transition: transform 0.3s ease-in-out;
 }
 
 .about-img:hover img {

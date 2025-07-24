@@ -1,6 +1,6 @@
 .contact {
     padding: 8rem 0;
-    background: var(--dark-bg);
+    background: #1f2a36; /* fundo escuro profissional */
 }
 
 .contact-container {
@@ -12,6 +12,7 @@
 .contact-info h3 {
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
+    color: #e0e0e0; /* texto claro */
 }
 
 .contact-detail {
@@ -21,7 +22,7 @@
 
 .contact-detail i {
     font-size: 1.5rem;
-    color: var(--primary);
+    color: #3e8e7e; /* verde escuro elegante */
     margin-right: 1rem;
     flex-shrink: 0;
 }
@@ -29,10 +30,11 @@
 .contact-detail h4 {
     font-size: 1.1rem;
     margin-bottom: 0.3rem;
+    color: #dcdcdc;
 }
 
 .contact-detail p {
-    color: var(--gray);
+    color: #a0a0a0; /* cinza médio para melhor contraste */
 }
 
 .contact-form .form-group {
@@ -43,20 +45,20 @@
 .contact-form textarea {
     width: 100%;
     padding: 0.8rem 1.2rem;
-    background: var(--dark-card);
-    border: 1px #2c3e50;
+    background: #27323f; /* cor de fundo escuro para campos */
+    border: 1px solid #2c3e50;
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
-    transition: var(--transition);
-    color: var(--light);
+    transition: 0.3s ease;
+    color: #f0f0f0;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border-color: var(--primary);
+    border-color: #3e8e7e;
     outline: none;
-    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+    box-shadow: 0 0 0 3px rgba(62, 142, 126, 0.15);
 }
 
 .contact-form textarea {
@@ -66,5 +68,5 @@
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-            color: var(--gray);
+    color: #888888;
 }

@@ -1,8 +1,8 @@
 footer {
-    background: #0b1120;
-    color: white;
+    background: #1e2933; /* fundo escuro sóbrio, igual benefits */
+    color: #b0b8c2; /* cinza claro para o texto */
     padding: 4rem 0 2rem;
-    border-top: 1px solid var(--dark-border);
+    border-top: 1px solid #35495e; /* borda escura suave */
 }
 
 .footer-content {
@@ -16,6 +16,7 @@ footer {
     font-size: 1.3rem;
     margin-bottom: 1.5rem;
     position: relative;
+    color: #ffffff; /* título claro para destaque */
 }
 
 .footer-col h4::after {
@@ -25,33 +26,34 @@ footer {
     left: 0;
     width: 40px;
     height: 3px;
-    background: var(--primary);
+    background: #3e8e7e; /* barra de destaque verde escuro */
 }
 
 .footer-col p {
-    color: var(--gray);
+    color: #b0b8c2; /* cinza claro para texto */
     margin-bottom: 1rem;
 }
+
 .footer-links li {
     list-style: none;
     margin-bottom: 0.8rem;
 }
 
 .footer-links a {
-    color: var(--gray);
+    color: #b0b8c2; /* links cinza claro */
     text-decoration: none;
-    transition: var(--transition);
+    transition: 0.3s ease;
 }
 
 .footer-links a:hover {
-    color: var(--primary);
+    color: #3e8e7e; /* verde escuro no hover */
     padding-left: 5px;
 }
 
 .copyright {
     text-align: center;
     padding-top: 2rem;
-    border-top: 1px solid var(--dark-border);
-    color: var(--gray);
+    border-top: 1px solid #35495e; /* mesma borda sutil */
+    color: #b0b8c2;
     font-size: 0.9rem;
 }

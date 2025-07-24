@@ -1,6 +1,6 @@
 .services {
     padding: 8rem 0;
-    background: var(--dark-card);
+    background: #242f3a; /* fundo geral da seção */
 }
 
 .services-grid {
@@ -10,18 +10,18 @@
 }
 
 .service-card {
-    background: var(--dark-bg);
+    background: #1f2a36; /* fundo escuro elegante para o card */
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: var(--shadow);
-    transition: var(--transition);
-    border: 1px solid var(--dark-border);
-    border-top: 4px solid var(--primary);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: 0.3s ease;
+    border: 1px solid #2e3b4b;
+    border-top: 4px solid #3e8e7e; /* verde escuro sofisticado */
 }
 
 .service-card:hover {
     transform: translateY(-10px);
-    box-shadow: var(--shadow-lg);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
 }
 
 .service-img {
@@ -31,13 +31,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid var(--dark-border);
+    border-bottom: 1px solid #2e3b4b;
 }
 
 .service-img img {
     width: 80%;
     height: auto;
-    transition: var(--transition);
+    transition: 0.3s ease;
     filter: drop-shadow(0 5px 15px rgba(0,0,0,0.3));
 }
 
@@ -52,10 +52,10 @@
 .service-content h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: var(--primary);
+    color: #3e8e7e; /* verde escuro como cor principal */
 }
 
 .service-content p {
-    color: var(--gray);
+    color: #a0a0a0; /* cinza médio para contraste e legibilidade */
     margin-bottom: 1.5rem;
 }

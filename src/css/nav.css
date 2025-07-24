@@ -9,14 +9,14 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: var(--light);
+    color: #b0b8c2; /* texto cinza claro */
     font-weight: 500;
-    transition: var(--transition);
+    transition: color 0.3s ease;
     position: relative;
 }
 
 nav ul li a:hover {
-    color: var(--primary);
+    color: #3e8e7e; /* verde escuro para destaque */
 }
 
 nav ul li a::after {
@@ -26,9 +26,9 @@ nav ul li a::after {
     left: 0;
     width: 0;
     height: 2px;
-    background-color: var(--primary);
-    transition: var(--transition);
-        }
+    background-color: #3e8e7e; /* linha verde escura */
+    transition: width 0.3s ease;
+}
 
 nav ul li a:hover::after {
     width: 100%;
